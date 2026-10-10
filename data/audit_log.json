@@ -1,0 +1,10 @@
+[
+  {"id":"aud_01","date":"2026-10-10T04:00:00.000Z","action":"login","entity":"session","entityId":"usr_admin","details":"Signed in","userId":"usr_admin","userName":"Anika Sharma","createdAt":"2026-10-10T04:00:00.000Z"},
+  {"id":"aud_02","date":"2026-10-09T06:30:00.000Z","action":"login","entity":"session","entityId":"usr_manager","details":"Signed in","userId":"usr_manager","userName":"Meera Kulkarni","createdAt":"2026-10-09T06:30:00.000Z"},
+  {"id":"aud_03","date":"2026-10-09T04:10:00.000Z","action":"create","entity":"sales_order","entityId":"so_1004","details":"Created SO-2026-1004","userId":"usr_staff","userName":"Rohan Iyer","createdAt":"2026-10-09T04:10:00.000Z"},
+  {"id":"aud_04","date":"2026-09-25T04:20:00.000Z","action":"create","entity":"purchase_order","entityId":"po_1003","details":"Created PO-2026-1003","userId":"usr_manager","userName":"Meera Kulkarni","createdAt":"2026-09-25T04:20:00.000Z"},
+  {"id":"aud_05","date":"2026-09-18T04:40:00.000Z","action":"receive","entity":"purchase_order","entityId":"po_1001","details":"Received goods on GRN-2026-1001","userId":"usr_manager","userName":"Meera Kulkarni","createdAt":"2026-09-18T04:40:00.000Z"},
+  {"id":"aud_06","date":"2026-10-02T06:40:00.000Z","action":"ship","entity":"sales_order","entityId":"so_1002","details":"Shipped SO-2026-1002","userId":"usr_staff","userName":"Rohan Iyer","createdAt":"2026-10-02T06:40:00.000Z"},
+  {"id":"aud_07","date":"2026-10-01T04:45:00.000Z","action":"approve","entity":"stock_take","entityId":"st_1001","details":"Approved ST-2026-1001","userId":"usr_manager","userName":"Meera Kulkarni","createdAt":"2026-10-01T04:45:00.000Z"},
+  {"id":"aud_08","date":"2026-10-08T03:00:00.000Z","action":"update","entity":"settings","entityId":"settings","details":"Updated company settings","userId":"usr_admin","userName":"Anika Sharma","createdAt":"2026-10-08T03:00:00.000Z"}
+]

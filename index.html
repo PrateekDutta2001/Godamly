@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Godamly</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230f766e'/%3E%3Cpath d='M7 14 16 8l9 6v10H7z' fill='none' stroke='white' stroke-width='2'/%3E%3C/svg%3E" />
+  <link rel="stylesheet" href="css/variables.css" />
+  <link rel="stylesheet" href="css/base.css" />
+  <link rel="stylesheet" href="css/layout.css" />
+  <script>
+    (function () {
+      try {
+        var theme = localStorage.getItem('godamly_theme');
+        if (theme) document.documentElement.setAttribute('data-theme', theme);
+      } catch (e) {}
+      if (location.protocol === 'file:') return;
+      var session = null;
+      try { session = localStorage.getItem('godamly_session') || sessionStorage.getItem('godamly_session'); } catch (e) {}
+      location.replace(session ? 'app.html' : 'login.html');
+    })();
+  </script>
+</head>
+<body>
+  <main class="boot">
+    <div class="boot-card">
+      <h1>Godamly</h1>
+      <p>Your warehouse, beautifully organised.</p>
+      <p class="muted" id="gate">Opening your workspace…</p>
+    </div>
+  </main>
+  <script>
+    if (location.protocol === 'file:') {
+      document.getElementById('gate').innerHTML = 'Open Godamly through the local server so the app can load. In this folder run <strong>start.bat</strong>, then visit http://localhost:5500';
+    }
+  </script>
+</body>
+</html>

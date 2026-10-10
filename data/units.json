@@ -1,0 +1,8 @@
+[
+  {"id":"unt_pcs","name":"Piece","abbreviation":"pcs","status":"active","createdAt":"2026-01-15T09:00:00.000Z"},
+  {"id":"unt_kg","name":"Kilogram","abbreviation":"kg","status":"active","createdAt":"2026-01-15T09:00:00.000Z"},
+  {"id":"unt_box","name":"Box","abbreviation":"box","status":"active","createdAt":"2026-01-15T09:00:00.000Z"},
+  {"id":"unt_ltr","name":"Litre","abbreviation":"L","status":"active","createdAt":"2026-01-15T09:00:00.000Z"},
+  {"id":"unt_pack","name":"Pack","abbreviation":"pack","status":"active","createdAt":"2026-01-15T09:00:00.000Z"},
+  {"id":"unt_m","name":"Metre","abbreviation":"m","status":"active","createdAt":"2026-01-15T09:00:00.000Z"}
+]

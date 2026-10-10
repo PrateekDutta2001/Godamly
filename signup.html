@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Create account · Godamly</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230f766e'/%3E%3Cpath d='M7 14 16 8l9 6v10H7z' fill='none' stroke='white' stroke-width='2'/%3E%3C/svg%3E" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/variables.css" />
+  <link rel="stylesheet" href="css/base.css" />
+  <link rel="stylesheet" href="css/components.css" />
+  <link rel="stylesheet" href="css/pages.css" />
+  <script>
+    try { var t = localStorage.getItem('godamly_theme'); if (t) document.documentElement.setAttribute('data-theme', t); } catch (e) {}
+  </script>
+</head>
+<body>
+  <div class="auth-shell">
+    <section class="auth-art" aria-hidden="true">
+      <div>
+        <strong>Godamly</strong>
+        <h2>Your warehouse, beautifully organised.</h2>
+        <p>The first account on an empty warehouse becomes the admin. After that, pick the role that matches the work.</p>
+        <ul class="art-points">
+          <li>Admin manages people and settings</li>
+          <li>Managers run purchasing and counts</li>
+          <li>Staff move stock and raise sales orders</li>
+        </ul>
+      </div>
+    </section>
+    <section class="auth-panel">
+      <div class="auth-card">
+        <p class="kicker">Join the floor</p>
+        <h1>Create an account</h1>
+        <p class="muted" id="first-note" hidden>You are the first user, so this account will be the admin.</p>
+        <form id="signup-form" novalidate>
+          <div class="field">
+            <label for="fullName">Full name<span class="req">*</span></label>
+            <input id="fullName" autocomplete="name" aria-required="true" />
+            <p class="field-error" id="fullName-error" role="alert" hidden></p>
+          </div>
+          <div class="grid-2">
+            <div class="field">
+              <label for="email">Email<span class="req">*</span></label>
+              <input id="email" type="email" autocomplete="email" aria-required="true" />
+              <p class="field-error" id="email-error" role="alert" hidden></p>
+            </div>
+            <div class="field">
+              <label for="username">Username<span class="req">*</span></label>
+              <input id="username" autocomplete="username" aria-required="true" />
+              <p class="field-error" id="username-error" role="alert" hidden></p>
+            </div>
+          </div>
+          <div class="field">
+            <label for="password">Password<span class="req">*</span></label>
+            <div class="pass-wrap">
+              <input id="password" type="password" autocomplete="new-password" aria-required="true" aria-describedby="strength-label" />
+              <button type="button" class="icon-btn" id="toggle-password" aria-label="Show password" aria-pressed="false">Show</button>
+            </div>
+            <div class="meter" id="meter" data-score="0" aria-hidden="true"><span></span><span></span><span></span><span></span></div>
+            <p class="field-hint" id="strength-label">Use 8+ characters with upper, lower, number, and symbol.</p>
+            <p class="field-error" id="password-error" role="alert" hidden></p>
+          </div>
+          <div class="field">
+            <label for="confirm">Confirm password<span class="req">*</span></label>
+            <input id="confirm" type="password" autocomplete="new-password" aria-required="true" />
+            <p class="field-error" id="confirm-error" role="alert" hidden></p>
+          </div>
+          <fieldset class="field" id="role-field">
+            <legend>Role<span class="req">*</span></legend>
+            <div class="role-pills">
+              <label><input type="radio" name="role" value="admin" /> Admin</label>
+              <label><input type="radio" name="role" value="manager" /> Manager</label>
+              <label><input type="radio" name="role" value="staff" checked /> Staff</label>
+            </div>
+            <p class="field-error" id="role-error" role="alert" hidden></p>
+          </fieldset>
+          <button class="btn btn-primary" type="submit" id="submit" style="width:100%">Create account</button>
+        </form>
+        <p class="muted" style="margin-top:14px">Already registered? <a href="login.html">Sign in</a></p>
+      </div>
+      <footer class="auth-footer">© 2026 Prateek Dutta. All rights reserved.</footer>
+    </section>
+  </div>
+  <div id="toast-root" role="status" aria-live="polite"></div>
+  <script type="module" src="js/signup.js"></script>
+</body>
+</html>

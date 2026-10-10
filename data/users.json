@@ -1,0 +1,44 @@
+[
+  {
+    "id": "usr_admin",
+    "fullName": "Anika Sharma",
+    "email": "admin@godamly.local",
+    "username": "admin",
+    "passwordHash": "dce9f80bfc6063aa9804a55cbb0c4223e9ae5fd169aee0aa15051ad93621b7fd",
+    "salt": "a7c3e91b4d2f8065c1ab34e7d9081f26",
+    "role": "admin",
+    "status": "active",
+    "phone": "+91 98200 11001",
+    "lastLogin": "2026-10-10T04:00:00.000Z",
+    "createdAt": "2026-01-15T09:00:00.000Z",
+    "updatedAt": "2026-10-10T04:00:00.000Z"
+  },
+  {
+    "id": "usr_manager",
+    "fullName": "Meera Kulkarni",
+    "email": "manager@godamly.local",
+    "username": "manager",
+    "passwordHash": "e192d225a753b137a45da02b6c775627fc8c448c0b45c32cfe94188bd5908043",
+    "salt": "b8d4f02c5e3a9176d2bc45f8e0192a37",
+    "role": "manager",
+    "status": "active",
+    "phone": "+91 98200 11002",
+    "lastLogin": "2026-10-09T06:30:00.000Z",
+    "createdAt": "2026-02-02T09:00:00.000Z",
+    "updatedAt": "2026-10-09T06:30:00.000Z"
+  },
+  {
+    "id": "usr_staff",
+    "fullName": "Rohan Iyer",
+    "email": "staff@godamly.local",
+    "username": "staff",
+    "passwordHash": "3cfbac544dd1987d42e78f8ad9b2d51f9a39e64542c85dfc15cef568b272133d",
+    "salt": "c9e5a13d6f4b0287e3cd56a9f12a3b48",
+    "role": "staff",
+    "status": "active",
+    "phone": "+91 98200 11003",
+    "lastLogin": "2026-10-10T05:10:00.000Z",
+    "createdAt": "2026-03-12T09:00:00.000Z",
+    "updatedAt": "2026-10-10T05:10:00.000Z"
+  }
+]

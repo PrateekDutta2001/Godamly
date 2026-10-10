@@ -1,0 +1,30 @@
+#print-root { display: none; }
+.sheet { color: #142421; background: white; font-family: "Inter", "Segoe UI", sans-serif; }
+.sheet-head, .sheet-parties { display: flex; justify-content: space-between; gap: 24px; }
+.sheet-head { border-bottom: 2px solid #0f766e; padding-bottom: 12px; margin-bottom: 16px; }
+.sheet-brand { font-weight: 800; letter-spacing: -0.04em; color: #0f766e; font-size: 1.4rem; }
+.sheet-logo { width: 72px; height: 72px; object-fit: contain; margin-bottom: 8px; }
+.sheet-title { text-align: right; }
+.sheet-title h2 { margin: 0 0 6px; font-size: 1.6rem; }
+.sheet h1, .sheet h3 { margin: 0 0 4px; }
+.sheet-parties { margin: 16px 0; }
+.sheet-parties > div { flex: 1; }
+.sheet-table { width: 100%; border-collapse: collapse; margin-top: 8px; }
+.sheet-table th, .sheet-table td { border-bottom: 1px solid #d7e4df; padding: 8px; text-align: left; }
+.sheet-table th { font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.04em; color: #5c716b; }
+.sheet-table .num, .sheet .num { text-align: right; }
+.sheet-totals { width: 260px; margin-left: auto; margin-top: 12px; }
+.sheet-totals p { display: flex; justify-content: space-between; margin: 4px 0; }
+.sheet-totals .grand { font-size: 1.1rem; border-top: 2px solid #142421; padding-top: 6px; }
+.sheet-notes { margin-top: 16px; }
+.sheet-foot { display: flex; justify-content: space-between; gap: 12px; margin-top: 28px; padding-top: 8px; border-top: 1px solid #d7e4df; font-size: 0.8rem; color: #5c716b; }
+@media print {
+  @page { margin: 14mm; }
+  body.is-printing .app,
+  body.is-printing .boot,
+  body.is-printing #modal-root,
+  body.is-printing #confirm-root,
+  body.is-printing #toast-root { display: none !important; }
+  body.is-printing #print-root { display: block !important; }
+  .no-print { display: none !important; }
+}

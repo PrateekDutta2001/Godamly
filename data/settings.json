@@ -1,0 +1,19 @@
+{
+  "company": {
+    "name": "Godamly Supplies Pvt. Ltd.",
+    "legalName": "Godamly Supplies Private Limited",
+    "logo": "",
+    "address": "42, Warehouse Lane, Andheri East, Mumbai 400069",
+    "phone": "+91 22 4000 1200",
+    "email": "hello@godamly.local",
+    "taxId": "27AABCU9603R1ZM",
+    "website": ""
+  },
+  "currency": "INR",
+  "currencySymbol": "₹",
+  "taxRate": 18,
+  "dateFormat": "DD/MM/YYYY",
+  "lowStockThreshold": 10,
+  "skuPrefix": "GDM",
+  "theme": "light"
+}

@@ -1,0 +1,112 @@
+[
+  {
+    "id": "po_1001",
+    "number": "PO-2026-1001",
+    "supplierId": "sup_01",
+    "warehouseId": "wh_mum",
+    "status": "received",
+    "orderDate": "2026-09-12",
+    "expectedDate": "2026-09-18",
+    "taxRate": 5,
+    "notes": "Monthly staple replenishment.",
+    "createdBy": "usr_manager",
+    "createdAt": "2026-09-12T04:00:00.000Z",
+    "lines": [
+      {"id":"pol_1001a","productId":"prd_1001","qtyOrdered":50,"qtyReceived":50,"unitCost":320}
+    ],
+    "receipts": [
+      {"id":"grn_1001","number":"GRN-2026-1001","date":"2026-09-18T04:30:00.000Z","userId":"usr_manager","userName":"Meera Kulkarni","lines":[{"lineId":"pol_1001a","productId":"prd_1001","qty":50,"locationId":"loc_mum_a01","unitCost":320}]}
+    ]
+  },
+  {
+    "id": "po_1002",
+    "number": "PO-2026-1002",
+    "supplierId": "sup_02",
+    "warehouseId": "wh_mum",
+    "status": "partial",
+    "orderDate": "2026-09-10",
+    "expectedDate": "2026-09-22",
+    "taxRate": 18,
+    "notes": "Water for the festive window. Balance still due.",
+    "createdBy": "usr_manager",
+    "createdAt": "2026-09-10T04:00:00.000Z",
+    "lines": [
+      {"id":"pol_1002a","productId":"prd_1010","qtyOrdered":200,"qtyReceived":160,"unitCost":12}
+    ],
+    "receipts": [
+      {"id":"grn_1002","number":"GRN-2026-1002","date":"2026-09-14T05:00:00.000Z","userId":"usr_manager","userName":"Meera Kulkarni","lines":[{"lineId":"pol_1002a","productId":"prd_1010","qty":100,"locationId":"loc_mum_b02","unitCost":12}]},
+      {"id":"grn_1003","number":"GRN-2026-1003","date":"2026-09-22T05:00:00.000Z","userId":"usr_staff","userName":"Rohan Iyer","lines":[{"lineId":"pol_1002a","productId":"prd_1010","qty":60,"locationId":"loc_mum_b02","unitCost":12}]}
+    ]
+  },
+  {
+    "id": "po_1003",
+    "number": "PO-2026-1003",
+    "supplierId": "sup_03",
+    "warehouseId": "wh_mum",
+    "status": "ordered",
+    "orderDate": "2026-09-25",
+    "expectedDate": "2026-10-01",
+    "taxRate": 18,
+    "notes": "Overdue housekeeping replenishment.",
+    "createdBy": "usr_manager",
+    "createdAt": "2026-09-25T04:00:00.000Z",
+    "lines": [
+      {"id":"pol_1003a","productId":"prd_1016","qtyOrdered":20,"qtyReceived":0,"unitCost":190},
+      {"id":"pol_1003b","productId":"prd_1018","qtyOrdered":24,"qtyReceived":0,"unitCost":60}
+    ],
+    "receipts": []
+  },
+  {
+    "id": "po_1004",
+    "number": "PO-2026-1004",
+    "supplierId": "sup_04",
+    "warehouseId": "wh_mum",
+    "status": "draft",
+    "orderDate": "2026-10-08",
+    "expectedDate": "2026-10-18",
+    "taxRate": 18,
+    "notes": "Draft for the maintenance aisle.",
+    "createdBy": "usr_manager",
+    "createdAt": "2026-10-08T04:00:00.000Z",
+    "lines": [
+      {"id":"pol_1004a","productId":"prd_1021","qtyOrdered":30,"qtyReceived":0,"unitCost":160},
+      {"id":"pol_1004b","productId":"prd_1022","qtyOrdered":10,"qtyReceived":0,"unitCost":210}
+    ],
+    "receipts": []
+  },
+  {
+    "id": "po_1005",
+    "number": "PO-2026-1005",
+    "supplierId": "sup_05",
+    "warehouseId": "wh_pun",
+    "status": "ordered",
+    "orderDate": "2026-10-06",
+    "expectedDate": "2026-10-20",
+    "taxRate": 12,
+    "notes": "Paper and pens for Pune.",
+    "createdBy": "usr_manager",
+    "createdAt": "2026-10-06T04:00:00.000Z",
+    "lines": [
+      {"id":"pol_1005a","productId":"prd_1026","qtyOrdered":40,"qtyReceived":0,"unitCost":240},
+      {"id":"pol_1005b","productId":"prd_1027","qtyOrdered":20,"qtyReceived":0,"unitCost":80}
+    ],
+    "receipts": []
+  },
+  {
+    "id": "po_1006",
+    "number": "PO-2026-1006",
+    "supplierId": "sup_02",
+    "warehouseId": "wh_mum",
+    "status": "cancelled",
+    "orderDate": "2026-09-05",
+    "expectedDate": "2026-09-15",
+    "taxRate": 18,
+    "notes": "Cancelled after the customer order dropped.",
+    "createdBy": "usr_manager",
+    "createdAt": "2026-09-05T04:00:00.000Z",
+    "lines": [
+      {"id":"pol_1006a","productId":"prd_1012","qtyOrdered":15,"qtyReceived":0,"unitCost":220}
+    ],
+    "receipts": []
+  }
+]

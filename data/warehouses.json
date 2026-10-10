@@ -1,0 +1,35 @@
+[
+  {
+    "id": "wh_mum",
+    "name": "Mumbai Central DC",
+    "code": "WH-MUM",
+    "address": "42 Warehouse Lane, Andheri East",
+    "city": "Mumbai",
+    "capacity": 1500,
+    "status": "active",
+    "notes": "Primary distribution centre.",
+    "createdAt": "2026-01-20T09:00:00.000Z",
+    "locations": [
+      {"id":"loc_mum_a01","zone":"A","rack":"01","bin":"01","code":"A-01-01","capacity":400},
+      {"id":"loc_mum_a02","zone":"A","rack":"01","bin":"02","code":"A-01-02","capacity":400},
+      {"id":"loc_mum_b01","zone":"B","rack":"02","bin":"01","code":"B-02-01","capacity":500},
+      {"id":"loc_mum_b02","zone":"B","rack":"02","bin":"02","code":"B-02-02","capacity":500}
+    ]
+  },
+  {
+    "id": "wh_pun",
+    "name": "Pune Fulfilment Hub",
+    "code": "WH-PUN",
+    "address": "7 Logistics Park, Hinjawadi",
+    "city": "Pune",
+    "capacity": 800,
+    "status": "active",
+    "notes": "West-region overflow.",
+    "createdAt": "2026-01-20T09:00:00.000Z",
+    "locations": [
+      {"id":"loc_pun_a01","zone":"A","rack":"01","bin":"01","code":"A-01-01","capacity":300},
+      {"id":"loc_pun_a02","zone":"A","rack":"02","bin":"01","code":"A-02-01","capacity":250},
+      {"id":"loc_pun_c01","zone":"C","rack":"01","bin":"01","code":"C-01-01","capacity":350}
+    ]
+  }
+]

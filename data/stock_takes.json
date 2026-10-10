@@ -1,0 +1,28 @@
+[
+  {
+    "id": "st_1001",
+    "number": "ST-2026-1001",
+    "warehouseId": "wh_mum",
+    "status": "approved",
+    "createdBy": "usr_manager",
+    "approvedBy": "usr_manager",
+    "approvedAt": "2026-10-01T04:40:00.000Z",
+    "createdAt": "2026-10-01T04:00:00.000Z",
+    "lines": [
+      {"id":"stl_1001a","productId":"prd_1006","locationId":"loc_mum_a01","systemQty":30,"countedQty":20,"variance":-10}
+    ]
+  },
+  {
+    "id": "st_1002",
+    "number": "ST-2026-1002",
+    "warehouseId": "wh_pun",
+    "status": "counting",
+    "createdBy": "usr_manager",
+    "createdAt": "2026-10-09T05:00:00.000Z",
+    "lines": [
+      {"id":"stl_1002a","productId":"prd_1010","locationId":"loc_pun_c01","systemQty":60,"countedQty":null},
+      {"id":"stl_1002b","productId":"prd_1026","locationId":"loc_pun_c01","systemQty":10,"countedQty":null},
+      {"id":"stl_1002c","productId":"prd_1027","locationId":"loc_pun_c01","systemQty":4,"countedQty":null}
+    ]
+  }
+]

@@ -1,0 +1,113 @@
+[
+  {
+    "id": "so_1001",
+    "number": "SO-2026-1001",
+    "customerId": "cus_01",
+    "warehouseId": "wh_mum",
+    "status": "delivered",
+    "orderDate": "2026-09-28",
+    "taxRate": 5,
+    "notes": "Tea for the Linking Road store.",
+    "stockPosted": true,
+    "createdBy": "usr_staff",
+    "shippedAt": "2026-09-30T06:00:00.000Z",
+    "deliveredAt": "2026-10-01T06:00:00.000Z",
+    "createdAt": "2026-09-28T04:00:00.000Z",
+    "lines": [
+      {"id":"sol_1001a","productId":"prd_1007","qty":10,"qtyShipped":10,"unitPrice":140}
+    ],
+    "shipments": [
+      {"id":"shp_1001","date":"2026-09-30T06:00:00.000Z","userName":"Rohan Iyer","lines":[{"productId":"prd_1007","locationId":"loc_mum_b01","qty":10}]}
+    ]
+  },
+  {
+    "id": "so_1002",
+    "number": "SO-2026-1002",
+    "customerId": "cus_02",
+    "warehouseId": "wh_mum",
+    "status": "shipped",
+    "orderDate": "2026-10-01",
+    "taxRate": 5,
+    "notes": "Oil dispatch, awaiting delivery confirmation.",
+    "stockPosted": true,
+    "createdBy": "usr_staff",
+    "shippedAt": "2026-10-02T06:30:00.000Z",
+    "createdAt": "2026-10-01T04:00:00.000Z",
+    "lines": [
+      {"id":"sol_1002a","productId":"prd_1004","qty":12,"qtyShipped":12,"unitPrice":189}
+    ],
+    "shipments": [
+      {"id":"shp_1002","date":"2026-10-02T06:30:00.000Z","userName":"Rohan Iyer","lines":[{"productId":"prd_1004","locationId":"loc_mum_a02","qty":12}]}
+    ]
+  },
+  {
+    "id": "so_1003",
+    "number": "SO-2026-1003",
+    "customerId": "cus_04",
+    "warehouseId": "wh_mum",
+    "status": "packed",
+    "orderDate": "2026-10-08",
+    "taxRate": 5,
+    "notes": "Hotel dry stores, waiting for the carrier.",
+    "stockPosted": false,
+    "createdBy": "usr_staff",
+    "createdAt": "2026-10-08T04:00:00.000Z",
+    "lines": [
+      {"id":"sol_1003a","productId":"prd_1001","qty":6,"qtyShipped":0,"unitPrice":420},
+      {"id":"sol_1003b","productId":"prd_1011","qty":10,"qtyShipped":0,"unitPrice":45}
+    ],
+    "shipments": []
+  },
+  {
+    "id": "so_1004",
+    "number": "SO-2026-1004",
+    "customerId": "cus_05",
+    "warehouseId": "wh_mum",
+    "status": "confirmed",
+    "orderDate": "2026-10-09",
+    "taxRate": 18,
+    "notes": "Reserved for MetroFix.",
+    "stockPosted": false,
+    "createdBy": "usr_staff",
+    "createdAt": "2026-10-09T04:00:00.000Z",
+    "lines": [
+      {"id":"sol_1004a","productId":"prd_1008","qty":4,"qtyShipped":0,"unitPrice":260},
+      {"id":"sol_1004b","productId":"prd_1023","qty":10,"qtyShipped":0,"unitPrice":99}
+    ],
+    "shipments": []
+  },
+  {
+    "id": "so_1005",
+    "number": "SO-2026-1005",
+    "customerId": "cus_03",
+    "warehouseId": "wh_pun",
+    "status": "draft",
+    "orderDate": "2026-10-10",
+    "taxRate": 12,
+    "notes": "Draft paper order, not reserved.",
+    "stockPosted": false,
+    "createdBy": "usr_staff",
+    "createdAt": "2026-10-10T04:00:00.000Z",
+    "lines": [
+      {"id":"sol_1005a","productId":"prd_1026","qty":2,"qtyShipped":0,"unitPrice":320}
+    ],
+    "shipments": []
+  },
+  {
+    "id": "so_1006",
+    "number": "SO-2026-1006",
+    "customerId": "cus_04",
+    "warehouseId": "wh_mum",
+    "status": "cancelled",
+    "orderDate": "2026-09-20",
+    "taxRate": 18,
+    "notes": "Hotel cancelled before packing.",
+    "stockPosted": false,
+    "createdBy": "usr_manager",
+    "createdAt": "2026-09-20T04:00:00.000Z",
+    "lines": [
+      {"id":"sol_1006a","productId":"prd_1018","qty":5,"qtyShipped":0,"unitPrice":99}
+    ],
+    "shipments": []
+  }
+]

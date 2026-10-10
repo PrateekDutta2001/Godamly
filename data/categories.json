@@ -1,0 +1,8 @@
+[
+  {"id":"cat_staples","name":"Staples & Grains","description":"Rice, pulses, flour, oil, sugar and salt","color":"#0f766e","status":"active","createdAt":"2026-01-15T09:00:00.000Z"},
+  {"id":"cat_bev","name":"Beverages","description":"Tea, coffee, juice and water","color":"#0284c7","status":"active","createdAt":"2026-01-15T09:00:00.000Z"},
+  {"id":"cat_pack","name":"Packaging","description":"Cartons, tape, wrap and dispensers","color":"#d97706","status":"active","createdAt":"2026-01-15T09:00:00.000Z"},
+  {"id":"cat_clean","name":"Cleaning & Hygiene","description":"Cleaners, sanitisers and disposables","color":"#7c3aed","status":"active","createdAt":"2026-01-15T09:00:00.000Z"},
+  {"id":"cat_hw","name":"Hardware","description":"Fixings, tools and electricals","color":"#be123c","status":"active","createdAt":"2026-01-15T09:00:00.000Z"},
+  {"id":"cat_office","name":"Office Supplies","description":"Paper, pens and filing","color":"#4f46e5","status":"active","createdAt":"2026-01-15T09:00:00.000Z"}
+]
